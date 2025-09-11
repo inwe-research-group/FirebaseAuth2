@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "358093363732",
+    "project_id": "dsm-firebase-auth2",
+    "storage_bucket": "dsm-firebase-auth2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358093363732:android:a5fce0c9a2e86dce962501",
+        "android_client_info": {
+          "package_name": "com.dsm.firebaseauth2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9LOyKtSjzFkFbT1KrKGYm2Eta3pVKvdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
