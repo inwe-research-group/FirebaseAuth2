@@ -29,7 +29,7 @@ fun NavigationWrapper(
 
         }
         composable("signUp"){
-            SignUpScreen()
+            SignUpScreen(auth)
         }
         composable("home"){
             //pendiente HomeScreen
