@@ -24,6 +24,7 @@ class HomeViewModel : ViewModel(){
         getArtists()
     }
 
+
     private fun getArtists(){
         viewModelScope.launch {
             val result: List<Artist> = withContext(Dispatchers.IO){
