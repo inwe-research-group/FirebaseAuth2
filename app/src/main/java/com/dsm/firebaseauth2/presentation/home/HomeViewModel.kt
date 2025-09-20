@@ -21,7 +21,18 @@ class HomeViewModel : ViewModel(){
     val artist : StateFlow<List<Artist>> = _artist
 
     init {
+        //repeat(20){loadData()}
         getArtists()
+    }
+
+    private fun loadData(){
+        val random=(1..100).random()
+        val artist= Artist(
+            name= "Artista $random",
+            description="Excelente Artista $random",
+            image="https://www.banderasnews.com/0705/images/shakiramex.jpg"
+        )
+        db.collection("artists").add(artist)
     }
 
 
